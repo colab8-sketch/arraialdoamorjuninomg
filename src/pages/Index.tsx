@@ -4,8 +4,10 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import ContactButtons from "@/components/ContactButtons";
 import heroImage from "@/assets/hero-danca-junina.jpg";
-import ongImage from "@/assets/ong-projetos.jpg";
+import ongImage from "@/assets/projeto-social.jpg";
 import apresentacaoImage from "@/assets/apresentacao-1.jpg";
+import apresentacao2Image from "@/assets/apresentacao-2.jpg";
+import grupoFotoImage from "@/assets/grupo-foto.jpg";
 import { Music, Users, Heart, Calendar, MapPin, Award } from "lucide-react";
 
 const Index = () => {
@@ -17,7 +19,7 @@ const Index = () => {
       title: "Festival de Inverno de Bonito",
       date: "Julho 2024",
       location: "Bonito, MG",
-      image: apresentacaoImage,
+      image: apresentacao2Image,
       description: "Apresentação especial no tradicional Festival de Inverno"
     },
     {
@@ -33,8 +35,16 @@ const Index = () => {
       title: "Arraial do Mercado Central",
       date: "Junho 2024",
       location: "Belo Horizonte, MG", 
-      image: apresentacaoImage,
+      image: grupoFotoImage,
       description: "Quadrilha tradicional no coração da cidade"
+    },
+    {
+      id: 4,
+      title: "Festival de São João de Tiradentes",
+      date: "Junho 2024",
+      location: "Tiradentes, MG",
+      image: apresentacao2Image,
+      description: "Participação no histórico Festival de São João"
     }
   ];
 
@@ -157,6 +167,32 @@ const Index = () => {
                   </CardContent>
                 </Card>
               </div>
+              <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                  <img 
+                    src={grupoFotoImage} 
+                    alt="Arraial do Amor Junino - Foto do Grupo"
+                    className="rounded-lg shadow-warm w-full"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-6 text-foreground">Nosso Grupo</h3>
+                  <div className="space-y-4 text-muted-foreground">
+                    <p>
+                      O Arraial do Amor Junino é formado por mais de 25 dançarinos dedicados 
+                      à preservação e divulgação da autêntica cultura junina mineira.
+                    </p>
+                    <p>
+                      Com trajes tradicionais coloridos e coreografias que respeitam a tradição, 
+                      levamos alegria e cultura para festivais, eventos corporativos e celebrações em todo o estado.
+                    </p>
+                    <div className="flex items-center space-x-2 text-primary">
+                      <Award className="h-5 w-5" />
+                      <span className="font-semibold">20+ anos de tradição</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
 
             {/* Apresentações Anteriores */}
@@ -169,7 +205,7 @@ const Index = () => {
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-3 gap-8">
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {apresentacoes.map((apresentacao) => (
                   <Card key={apresentacao.id} className="group hover:shadow-warm transition-all duration-300 overflow-hidden">
                     <div className="relative overflow-hidden">

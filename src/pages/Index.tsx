@@ -46,7 +46,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <Music className="h-8 w-8" />
-              <h1 className="text-2xl font-bold">Folclore Mineiro</h1>
+              <h1 className="text-2xl font-bold">Arraial do Amor Junino</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
               <button 
@@ -82,7 +82,7 @@ const Index = () => {
             Tradição Mineira Autêntica
           </Badge>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-2xl">
-            Folclore Mineiro
+            Arraial do Amor Junino
           </h1>
           <p className="text-xl md:text-2xl mb-8 drop-shadow-lg max-w-2xl mx-auto">
             Preservando e compartilhando a rica cultura da dança junina tradicional de Minas Gerais
@@ -202,7 +202,7 @@ const Index = () => {
             {/* Sobre a ONG */}
             <section>
               <div className="text-center mb-12">
-                <h2 className="text-4xl font-bold mb-4 text-foreground">ONG Raízes Culturais</h2>
+                <h2 className="text-4xl font-bold mb-4 text-foreground">Associação Amor Junino</h2>
                 <div className="w-24 h-1 bg-gradient-festive mx-auto mb-6"></div>
                 <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                   Transformando vidas através da cultura e promovendo inclusão social por meio da dança tradicional
@@ -220,8 +220,8 @@ const Index = () => {
                 <div>
                   <h3 className="text-2xl font-bold mb-6 text-foreground">Nossa Missão Social</h3>
                   <div className="space-y-4 text-muted-foreground">
-                    <p>
-                      A ONG Raízes Culturais, vinculada ao nosso grupo, desenvolve projetos sociais 
+                  <p>
+                      A Associação Amor Junino, vinculada ao nosso grupo, desenvolve projetos sociais 
                       que utilizam a dança junina como ferramenta de transformação social e preservação cultural.
                     </p>
                     <p>
@@ -304,13 +304,13 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-3 mb-6">
             <Music className="h-8 w-8" />
-            <h3 className="text-2xl font-bold">Folclore Mineiro</h3>
+            <h3 className="text-2xl font-bold">Arraial do Amor Junino</h3>
           </div>
           <p className="text-white/80 mb-6 max-w-2xl mx-auto">
             Preservando a tradição, construindo o futuro através da cultura popular mineira.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8">
-            <p className="text-white/80">© 2024 Folclore Mineiro - Todos os direitos reservados</p>
+            <p className="text-white/80">© 2024 Arraial do Amor Junino - Todos os direitos reservados</p>
           </div>
         </div>
       </footer>

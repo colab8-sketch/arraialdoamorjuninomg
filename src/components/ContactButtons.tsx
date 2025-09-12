@@ -9,7 +9,7 @@ interface ContactButtonsProps {
 
 const ContactButtons = ({ 
   whatsappNumber = "5531999999999", 
-  instagramHandle = "folcloremineiro",
+  instagramHandle = "arraialdomoramorjunino",
   className = ""
 }: ContactButtonsProps) => {
   const handleWhatsAppClick = () => {

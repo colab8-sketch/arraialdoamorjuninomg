@@ -17,7 +17,7 @@ import ongCriancas1 from "@/assets/ong-criancas-1.jpg";
 import ongIdosos1 from "@/assets/ong-idosos-1.jpg";
 import ongArtesanato1 from "@/assets/ong-artesanato-1.jpg";
 import ongEvento1 from "@/assets/ong-evento-1.jpg";
-import { Music, Users, Heart, Calendar, MapPin, Award } from "lucide-react";
+import { CircleDot, Users, Heart, Calendar, MapPin, Award } from "lucide-react";
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState<'grupo' | 'ong'>('grupo');
@@ -80,7 +80,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <Music className="h-8 w-8" />
+              <CircleDot className="h-8 w-8" />
               <h1 className="text-2xl font-bold">Arraial do Amor Junino</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
@@ -113,9 +113,6 @@ const Index = () => {
         </div>
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <Badge className="mb-6 bg-accent text-accent-foreground">
-            Tradição Mineira Autêntica
-          </Badge>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-2xl">
             Arraial do Amor Junino
           </h1>
@@ -192,7 +189,8 @@ const Index = () => {
                   </CardContent>
                 </Card>
               </div>
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
+              
+              <div className="grid lg:grid-cols-2 gap-12 items-center mt-8">
                 <div className="relative">
                   <Carousel className="w-full max-w-lg mx-auto">
                     <CarouselContent>
@@ -357,7 +355,7 @@ const Index = () => {
                 <Card className="hover:shadow-festive transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-                      <Music className="h-6 w-6 text-accent" />
+                      <CircleDot className="h-6 w-6 text-accent" />
                     </div>
                     <h4 className="text-xl font-semibold mb-2">Instrumentos Tradicionais</h4>
                     <p className="text-muted-foreground">
@@ -388,7 +386,7 @@ const Index = () => {
       <footer className="bg-gradient-hero text-white py-12 mt-16">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-3 mb-6">
-            <Music className="h-8 w-8" />
+            <CircleDot className="h-8 w-8" />
             <h3 className="text-2xl font-bold">Arraial do Amor Junino</h3>
           </div>
           <p className="text-white/80 mb-6 max-w-2xl mx-auto">

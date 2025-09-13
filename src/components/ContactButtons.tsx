@@ -9,7 +9,7 @@ interface ContactButtonsProps {
 
 const ContactButtons = ({ 
   whatsappNumber = "5531975200162", 
-  instagramHandle = "arraialdomoramorjunino",
+  instagramHandle = "arraialdoamorjunino",
   className = ""
 }: ContactButtonsProps) => {
   const handleWhatsAppClick = () => {
@@ -19,7 +19,7 @@ const ContactButtons = ({
   };
 
   const handleInstagramClick = () => {
-    const url = `https://instagram.com/${arraialdoamorjunino}`;
+    const url = `https://instagram.com/${instagramHandle}`;
     window.open(url, '_blank');
   };
 

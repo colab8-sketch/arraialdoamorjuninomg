@@ -80,7 +80,8 @@ const Index = () => {
       <header className="bg-gradient-hero text-white py-6 sticky top-0 z-50 shadow-festive">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center">
+            <div className="flex items-center space-x-3">
+              <CircleDot className="h-8 w-8" />
               <h1 className="text-2xl font-bold">Arraial do Amor Junino</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
@@ -130,7 +131,7 @@ const Index = () => {
             <button
               onClick={() => setActiveTab('grupo')}
               className={`flex-1 py-2 px-4 rounded-md transition-colors ${
-                activeTab === 'grupo' ? 'bg-blue-600 text-white' : 'text-muted-foreground'
+                activeTab === 'grupo' ? 'bg-primary text-primary-foreground' : 'text-muted-foreground'
               }`}
             >
               O Grupo
@@ -138,7 +139,7 @@ const Index = () => {
             <button
               onClick={() => setActiveTab('ong')}
               className={`flex-1 py-2 px-4 rounded-md transition-colors ${
-                activeTab === 'ong' ? 'bg-blue-600 text-white' : 'text-muted-foreground'
+                activeTab === 'ong' ? 'bg-primary text-primary-foreground' : 'text-muted-foreground'
               }`}
             >
               ONG
@@ -385,7 +386,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-gradient-hero text-white py-12 mt-16">
         <div className="container mx-auto px-4 text-center">
-          <div className="flex items-center justify-center mb-6">
+          <div className="flex items-center justify-center space-x-3 mb-6">
+            <CircleDot className="h-8 w-8" />
             <h3 className="text-2xl font-bold">Arraial do Amor Junino</h3>
           </div>
           <p className="text-white/80 mb-6 max-w-2xl mx-auto">

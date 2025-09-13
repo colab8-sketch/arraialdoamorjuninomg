@@ -2,16 +2,41 @@ import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import ContactButtons from "@/components/ContactButtons";
 import heroImage from "@/assets/hero-danca-junina.jpg";
 import ongImage from "@/assets/projeto-social.jpg";
 import apresentacaoImage from "@/assets/apresentacao-1.jpg";
 import apresentacao2Image from "@/assets/apresentacao-2.jpg";
 import grupoFotoImage from "@/assets/grupo-foto.jpg";
+import grupoApresentacao1 from "@/assets/grupo-apresentacao-1.jpg";
+import grupoEnsaio1 from "@/assets/grupo-ensaio-1.jpg";
+import grupoQuadrilha1 from "@/assets/grupo-quadrilha-1.jpg";
+import grupoBastidores1 from "@/assets/grupo-bastidores-1.jpg";
+import ongCriancas1 from "@/assets/ong-criancas-1.jpg";
+import ongIdosos1 from "@/assets/ong-idosos-1.jpg";
+import ongArtesanato1 from "@/assets/ong-artesanato-1.jpg";
+import ongEvento1 from "@/assets/ong-evento-1.jpg";
 import { Music, Users, Heart, Calendar, MapPin, Award } from "lucide-react";
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState<'grupo' | 'ong'>('grupo');
+
+  const grupoImages = [
+    { src: grupoApresentacao1, alt: "Apresentação do Arraial do Amor Junino" },
+    { src: grupoEnsaio1, alt: "Ensaio do grupo" },
+    { src: grupoQuadrilha1, alt: "Formação da quadrilha" },
+    { src: grupoBastidores1, alt: "Bastidores da apresentação" },
+    { src: grupoFotoImage, alt: "Foto oficial do grupo" }
+  ];
+
+  const ongImages = [
+    { src: ongCriancas1, alt: "Projeto com crianças" },
+    { src: ongIdosos1, alt: "Oficina com idosos" },
+    { src: ongArtesanato1, alt: "Atividade de artesanato" },
+    { src: ongEvento1, alt: "Evento beneficente" },
+    { src: ongImage, alt: "Projetos sociais da ONG" }
+  ];
 
   const apresentacoes = [
     {
@@ -168,12 +193,24 @@ const Index = () => {
                 </Card>
               </div>
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <img 
-                    src={grupoFotoImage} 
-                    alt="Arraial do Amor Junino - Foto do Grupo"
-                    className="rounded-lg shadow-warm w-full"
-                  />
+                <div className="relative">
+                  <Carousel className="w-full max-w-lg mx-auto">
+                    <CarouselContent>
+                      {grupoImages.map((image, index) => (
+                        <CarouselItem key={index}>
+                          <div className="p-1">
+                            <img 
+                              src={image.src} 
+                              alt={image.alt}
+                              className="rounded-lg shadow-warm w-full h-80 object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                      ))}
+                    </CarouselContent>
+                    <CarouselPrevious className="left-2" />
+                    <CarouselNext className="right-2" />
+                  </Carousel>
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-6 text-foreground">Nosso Grupo</h3>
@@ -246,12 +283,24 @@ const Index = () => {
               </div>
 
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <img 
-                    src={ongImage} 
-                    alt="Projetos Sociais da ONG"
-                    className="rounded-lg shadow-warm w-full"
-                  />
+                <div className="relative">
+                  <Carousel className="w-full max-w-lg mx-auto">
+                    <CarouselContent>
+                      {ongImages.map((image, index) => (
+                        <CarouselItem key={index}>
+                          <div className="p-1">
+                            <img 
+                              src={image.src} 
+                              alt={image.alt}
+                              className="rounded-lg shadow-warm w-full h-80 object-cover"
+                            />
+                          </div>
+                        </CarouselItem>
+                      ))}
+                    </CarouselContent>
+                    <CarouselPrevious className="left-2" />
+                    <CarouselNext className="right-2" />
+                  </Carousel>
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-6 text-foreground">Nossa Missão Social</h3>

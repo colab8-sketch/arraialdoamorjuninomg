@@ -1,4 +1,4 @@
-// Force rebuild - removed Music icon and replaced with CircleDot (balloon)
+de// Force rebuild - removed Music icon and replaced with CircleDot (balloon)
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -154,7 +154,7 @@ const Index = () => {
                 <h2 className="text-4xl font-bold mb-4 text-foreground">Sobre o Grupo</h2>
                 <div className="w-24 h-1 bg-gradient-festive mx-auto mb-6"></div>
                 <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                  Há mais de 20 anos preservando e divulgando a autêntica cultura junina mineira através da dança tradicional
+                  Desde 2023 preservando e divulgando a autêntica cultura junina mineira através da dança tradicional de quadrilha.
                 </p>
               </div>
 
@@ -162,9 +162,9 @@ const Index = () => {
                 <Card className="text-center hover:shadow-festive transition-all duration-300">
                   <CardContent className="p-6">
                     <Users className="h-12 w-12 mx-auto mb-4 text-primary" />
-                    <h3 className="text-xl font-semibold mb-2">25+ Dançarinos</h3>
+                    <h3 className="text-xl font-semibold mb-2">Mais de 30 Dançarinos</h3>
                     <p className="text-muted-foreground">
-                      Grupo experiente e dedicado à preservação cultural
+                      Grupo experiente e dedicado à preservação da cultural
                     </p>
                   </CardContent>
                 </Card>
@@ -172,7 +172,7 @@ const Index = () => {
                 <Card className="text-center hover:shadow-festive transition-all duration-300">
                   <CardContent className="p-6">
                     <Calendar className="h-12 w-12 mx-auto mb-4 text-secondary" />
-                    <h3 className="text-xl font-semibold mb-2">200+ Apresentações</h3>
+                    <h3 className="text-xl font-semibold mb-2">Apresentações sociais e particulares</h3>
                     <p className="text-muted-foreground">
                       Experiência em festivais, eventos corporativos e culturais
                     </p>
@@ -182,9 +182,9 @@ const Index = () => {
                 <Card className="text-center hover:shadow-festive transition-all duration-300">
                   <CardContent className="p-6">
                     <Award className="h-12 w-12 mx-auto mb-4 text-accent" />
-                    <h3 className="text-xl font-semibold mb-2">Reconhecimento</h3>
+                    <h3 className="text-xl font-semibold mb-2">Sempre engajados e ativos</h3>
                     <p className="text-muted-foreground">
-                      Premiado em diversos festivais de cultura popular
+                      Envolvido em diversos festivais de cultura popular e concursos nos quais já foi premiado
                     </p>
                   </CardContent>
                 </Card>
@@ -214,7 +214,7 @@ const Index = () => {
                   <h3 className="text-2xl font-bold mb-6 text-foreground">Nosso Grupo</h3>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      O Arraial do Amor Junino é formado por mais de 25 dançarinos dedicados 
+                      O Arraial do Amor Junino é formado por mais de 30 dançarinos dedicados 
                       à preservação e divulgação da autêntica cultura junina mineira.
                     </p>
                     <p>
@@ -223,7 +223,7 @@ const Index = () => {
                     </p>
                     <div className="flex items-center space-x-2 text-primary">
                       <Award className="h-5 w-5" />
-                      <span className="font-semibold">20+ anos de tradição</span>
+                      <span className="font-semibold">Com apenas 3 anos de fundação, mas com uma bagagem cultural e social enorme.</span>
                     </div>
                   </div>
                 </div>
@@ -309,7 +309,7 @@ const Index = () => {
                     </p>
                     <p>
                       Atendemos crianças, jovens e idosos em situação de vulnerabilidade social, 
-                      oferecendo oficinas gratuitas de dança, música e artesanato tradicional.
+                      oferecendo oficinas e realizando ações.
                     </p>
                     <div className="flex items-center space-x-2 text-primary">
                       <Heart className="h-5 w-5" />
@@ -347,7 +347,7 @@ const Index = () => {
                     </div>
                     <h4 className="text-xl font-semibold mb-2">Memórias Vivas</h4>
                     <p className="text-muted-foreground">
-                      Projeto com idosos para preservar e transmitir tradições culturais
+                      Ações de arrecadação e distribiução de alimento, bazares e doaçoes de roupas
                     </p>
                   </CardContent>
                 </Card>
@@ -357,9 +357,9 @@ const Index = () => {
                     <div className="bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                       <CircleDot className="h-6 w-6 text-accent" />
                     </div>
-                    <h4 className="text-xl font-semibold mb-2">Instrumentos Tradicionais</h4>
+                    <h4 className="text-xl font-semibold mb-2">Cultura na escola</h4>
                     <p className="text-muted-foreground">
-                      Ensino de instrumentos típicos da música junina e folclórica
+                      Levamos a cultura até a escola afiliada ao grupo, e ainda recrutando dançarinos mirins e incluindo ao projeto principal
                     </p>
                   </CardContent>
                 </Card>

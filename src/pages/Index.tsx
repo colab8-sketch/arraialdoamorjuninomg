@@ -117,7 +117,7 @@ const Index = () => {
             Arraial do Amor Junino
           </h1>
           <p className="text-xl md:text-2xl mb-8 drop-shadow-lg max-w-2xl mx-auto">
-            Preservando e compartilhando a rica cultura da dança junina tradicional de Minas Gerais
+            Preservando e compartilhando a rica e tradicional cultura junina Mineira
           </p>
           <ContactButtons className="justify-center" />
         </div>

@@ -393,7 +393,7 @@ const Index = () => {
             Preservando a tradição, construindo o futuro através da cultura popular mineira.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8">
-            <p className="text-white/80">© 2024 Arraial do Amor Junino - Todos os direitos reservados</p>
+            <p className="text-white/80">© 2023 Arraial do Amor Junino - Todos os direitos reservados</p>
           </div>
         </div>
       </footer>

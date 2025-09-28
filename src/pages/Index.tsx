@@ -9,6 +9,7 @@ import heroImage from "@/assets/hero-danca-junina.jpg";
 import ongImage from "@/assets/projeto-social.jpg";
 import apresentacaoImage from "@/assets/apresentacao-1.jpg";
 import apresentacao2Image from "@/assets/apresentacao-2.jpg";
+import apresentacao3Image from "@/assets/apresentacao-3.jpg";
 import grupoFotoImage from "@/assets/grupo-foto.jpg";
 import grupoApresentacao1 from "@/assets/grupo-apresentacao-1.jpg";
 import grupoEnsaio1 from "@/assets/grupo-ensaio-1.jpg";
@@ -69,7 +70,7 @@ const Index = () => {
       title: "Arraial de Belo horizonte 2024",
       date: "Julho 2024",
       location: "Belo Horizonte, MG",
-      image: apresentacao2Image,
+      image: apresentacao3Image,
       description: "Apresentação pelo grupo de disputa no grande concurso de Belo Horizonte"
     }
   ];

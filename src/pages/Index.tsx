@@ -1,4 +1,4 @@
-de// Force rebuild - removed Music icon and replaced with CircleDot (balloon)
+// Force rebuild - removed Music icon and replaced with CircleDot (balloon)
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";

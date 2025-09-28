@@ -42,35 +42,35 @@ const Index = () => {
   const apresentacoes = [
     {
       id: 1,
-      title: "Festival de Inverno de Bonito",
-      date: "Julho 2024",
-      location: "Bonito, MG",
+      title: "Arraial de Belo Horizonte 2025",
+      date: "Julho 2025",
+      location: "Belo Horizonte, MG",
       image: apresentacao2Image,
-      description: "Apresentação especial no tradicional Festival de Inverno"
+      description: "Apresentação pelo grupo de acesso no grande concurso de Belo Horizonte"
     },
     {
       id: 2,
-      title: "Festa Junina da Praça da Liberdade",
+      title: "Apresentação na escola Edward Lima",
       date: "Junho 2024", 
-      location: "Belo Horizonte, MG",
+      location: "Santa Luzia, MG",
       image: apresentacaoImage,
-      description: "Grande apresentação na capital mineira"
+      description: "Apresentação social na escola afiliada ao grupo"
     },
     {
       id: 3,
-      title: "Arraial do Mercado Central",
-      date: "Junho 2024",
+      title: "Arraial de Belo Horizonte 2025 (Arquibancada) ",
+      date: "Junho 2025",
       location: "Belo Horizonte, MG", 
       image: grupoFotoImage,
-      description: "Quadrilha tradicional no coração da cidade"
+      description: "Gravação feita pela torcida do grupo diretamente da arquibancada do mineirinho"
     },
     {
       id: 4,
-      title: "Festival de São João de Tiradentes",
-      date: "Junho 2024",
-      location: "Tiradentes, MG",
+      title: "Arraial de Belo horizonte 2024",
+      date: "Julho 2024",
+      location: "Belo Horizonte, MG",
       image: apresentacao2Image,
-      description: "Participação no histórico Festival de São João"
+      description: "Apresentação pelo grupo de disputa no grande concurso de Belo Horizonte"
     }
   ];
 
